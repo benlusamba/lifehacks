@@ -2,6 +2,7 @@
 
 num1 = input('Bill: ')
 a = int(float(num1))
+b = int(a * 0.20)
 
-print ("Tip:", int(a * 0.20))
-print ("Total:", int(a * 0.20 + a))
+print ("Tip:", b)
+print ("Total:", b + a)
