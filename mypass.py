@@ -3,7 +3,7 @@ import random
 
 #Allow user to input her name, and number of characters needed:
 username = input('Name: ')
-print('Welcome', username)
+print('Welcome,', username)
 inp = input('How many characters?: ')
 try:
     len = int(inp)
