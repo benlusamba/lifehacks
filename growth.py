@@ -1,4 +1,4 @@
-#Portfolio Growth Calculator (incorporation Asset Allocation)
+#Portfolio Growth Calculator (incorporating asset allocation decisions)
 
 #User Inputs:
 num1 = input('Waiting Time (Years): ')
@@ -10,11 +10,11 @@ a = int(float(num1))
 b = int(float(num2))
 c = int(float(num3))
 
-#Define the customers asset allocation:
+#Calculate the customer's asset allocation:
 d = b/(b+c)
 e = c/(b+c)
 
-#Alternatively, these can be user inputs. We fix them for simplicity:
+#Alternatively, customer can specify these expected returns. We fix them for simplicity:
 stock = 0.08
 bond = 0.03
 
