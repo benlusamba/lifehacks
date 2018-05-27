@@ -18,7 +18,7 @@ e = c/(b+c)
 stock = 0.08
 bond = 0.03
 
-#Coumpound Interest
+#Compound Interest
 print ("Projected Net Worth (Dollars):", int(d*b*(1+stock)**a + (e*c*(1+bond)**a)))
 
 #Doubling Time Calculator (CAGR)
